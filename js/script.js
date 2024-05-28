@@ -1,79 +1,71 @@
-$('#s1').click(()=>{
+document.getElementById('s1').addEventListener('click', function() {
     window.open("https://sr.wikipedia.org/wiki/Гитара");
-})
+});
 
-$('#s2').click(()=>{
+document.getElementById('s2').addEventListener('click', function() {
     window.open("https://sr.wikipedia.org/wiki/Виолина");
-})
+});
 
-$('#s3').click(()=>{
+document.getElementById('s3').addEventListener('click', function() {
     window.open("https://sr.wikipedia.org/wiki/Клавир");
-})
+});
 
-$('#s4').click(()=>{
+document.getElementById('s4').addEventListener('click', function() {
     window.open("https://sr.wikipedia.org/wiki/Бубњеви");
-})
+});
 
-$('#s5').click(()=>{
+document.getElementById('s5').addEventListener('click', function() {
     window.open("https://sr.wikipedia.org/wiki/Хармоника");
-})
+});
 
-$('#s6').click(()=>{
+document.getElementById('s6').addEventListener('click', function() {
     window.open("https://sr.wikipedia.org/wiki/Контрафагот");
-})
-
+});
 
 var audio1 = new Audio('./audio/gitara.mp3');
-$('#z1').mouseenter(()=>{
+document.getElementById('z1').addEventListener('mouseenter', function() {
     audio1.play();
-})
-
-$('#z1').mouseleave(()=>{
+});
+document.getElementById('z1').addEventListener('mouseleave', function() {
     audio1.pause();
-})
+});
 
 var audio2 = new Audio('./audio/violina.mp3');
-$('#z2').mouseenter(()=>{
+document.getElementById('z2').addEventListener('mouseenter', function() {
     audio2.play();
-})
-
-$('#z2').mouseleave(()=>{
+});
+document.getElementById('z2').addEventListener('mouseleave', function() {
     audio2.pause();
-})
+});
 
 var audio3 = new Audio('./audio/klavir.mp3');
-$('#z3').mouseenter(()=>{
+document.getElementById('z3').addEventListener('mouseenter', function() {
     audio3.play();
-})
-
-$('#z3').mouseleave(()=>{
+});
+document.getElementById('z3').addEventListener('mouseleave', function() {
     audio3.pause();
-})
+});
 
 var audio4 = new Audio('./audio/bubnjevi.mp3');
-$('#z4').mouseenter(()=>{
+document.getElementById('z4').addEventListener('mouseenter', function() {
     audio4.play();
-})
-
-$('#z4').mouseleave(()=>{
+});
+document.getElementById('z4').addEventListener('mouseleave', function() {
     audio4.pause();
-})
+});
 
 var audio5 = new Audio('./audio/harmonika.mp3');
-$('#z5').mouseenter(()=>{
+document.getElementById('z5').addEventListener('mouseenter', function() {
     audio5.play();
-})
-
-$('#z5').mouseleave(()=>{
+});
+document.getElementById('z5').addEventListener('mouseleave', function() {
     audio5.pause();
-})
+});
 
 var audio6 = new Audio('./audio/kontrafagot.mp3');
-$('#z6').mouseenter(()=>{
+document.getElementById('z6').addEventListener('mouseenter', function() {
     audio6.play();
-})
-
-$('#z6').mouseleave(()=>{
+});
+document.getElementById('z6').addEventListener('mouseleave', function() {
     audio6.pause();
-})
-
+});
