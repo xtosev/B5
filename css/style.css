@@ -47,6 +47,12 @@ input:hover{
     color: green;
     font-size: 40px;
 }
+#zvuk1
+{
+    padding: 3%;
+    color: green;
+    font-size: 16px;
+}
 
 .music{
     display: flex;

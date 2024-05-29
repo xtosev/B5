@@ -1,3 +1,22 @@
+function kontrafagot(){
+    window.open("kontrafagot.html", "" ,"left=1050,top=750,width=350,height=250");
+}
+function harmonika(){
+    window.open("harmonika.html", "" ,"left=950,top=250,width=350,height=250");
+}
+function bubnjevi(){
+    window.open("bubnjevi.html", "" ,"left=650,top=90,width=350,height=250");
+}
+function klavir(){
+    window.open("zicani.html", "" ,"left=550,top=250,width=350,height=250");
+}  
+function gitara(){
+    window.open("zicani.html", "" ,"left=550,top=450,width=350,height=250");
+}  
+function violina(){
+    window.open("zicani.html", "" ,"left=600,top=650,width=350,height=250");
+}  
+
 document.getElementById('s1').addEventListener('click', function() {
     window.open("https://sr.wikipedia.org/wiki/Гитара");
 });
